@@ -16,7 +16,8 @@ The application is aiming to implement these core features:
 - Perhaps more...
 
 ## Documentation
-![LOFI Model](https://github.com/lindseylangdon/HCI-Project/docs/lofi.png)
+![LOFI Model](https://github.com/lindseylangdon/HCI-Project/blob/main/docs/lofi.png)
+
 
 ## Contibutors
 - Nolan Gregory (nulzo)
