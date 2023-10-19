@@ -15,6 +15,9 @@ The application is aiming to implement these core features:
 - User-friendly interface for both sign language users and those who understand text.
 - Perhaps more...
 
+## Documentation
+![LOFI Model](https://github.com/lindseylangdon/HCI-Project/docs/lofi.png)
+
 ## Contibutors
 - Nolan Gregory (nulzo)
 - Lindsey Langdon
