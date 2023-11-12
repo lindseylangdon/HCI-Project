@@ -23,8 +23,10 @@ function CameraBox(){
 	}, [videoRef])
 
     return (
-		<div className="flex justify-center container mx-auto py-4 bg-white rounded-xl">
-			<video ref={videoRef} className="rounded-xl"></video>
+		<div className="flex-1 items-center justify-center container mx-auto">
+			<div className="flex bg-white rounded-xl max-w-3xl sm:p-2 md:p-3 lg:py-4">
+				<video ref={videoRef} className="rounded-xl aspect-w-16 aspect-h-9"></video>
+			</div>
 		</div>
 	);
 }
