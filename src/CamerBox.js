@@ -1,4 +1,6 @@
 import React, {useRef, useEffect} from "react";
+import Restart from "./RestartButton";
+import CameraLabel from "./CameraLabel";
 
 function CameraBox(){
     const videoRef = useRef(null); 
@@ -23,9 +25,18 @@ function CameraBox(){
 	}, [videoRef])
 
     return (
-		<div className="flex-1 items-center justify-center container mx-auto">
-			<div className="flex bg-white rounded-xl max-w-3xl sm:p-2 md:p-3 lg:py-4">
-				<video ref={videoRef} className="rounded-xl aspect-w-16 aspect-h-9"></video>
+		<div>
+			<div className="flex-1 container mx-auto">
+				<div className="bg-white rounded-xl max-w-3xl sm:px-6 mb-3 md:px-7 mb-5 lg:px-10 mb-6">
+					<div className="mb-1 pt-2">
+						<CameraLabel></CameraLabel>
+					</div>
+					<video ref={videoRef} className="rounded-xl"></video>
+					<p className="pb-8"></p>
+				</div>
+				<div className="bg-white inline-block rounded-full p-1.5">
+					<Restart></Restart>
+				</div>
 			</div>
 		</div>
 	);
