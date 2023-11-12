@@ -1,6 +1,7 @@
 import Header from "./Header";
-import CameraBox from "./CamerBox";
-import ASLBox from "./ASLBox";
+import CameraBox from "./TranslationBox";
+import Restart from "./RestartButton";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -8,8 +9,9 @@ function App() {
       <header>
         <Header></Header>
         <CameraBox></CameraBox>
-        <ASLBox></ASLBox>
+        <Restart></Restart>
       </header>
+      <Footer></Footer>
     </div>
   );
 }
