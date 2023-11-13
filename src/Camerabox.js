@@ -26,7 +26,7 @@ function CameraBox(){
     return (
 		<div>
 			<div className="flex-1">
-				<div className="bg-white rounded-xl sm:px-6 mb-2 md:px-7 mb-2 lg:px-10 mb-2">
+				<div className="bg-white rounded-xl mb-2 sm:px-0 md:px-3 lg:px-10">
 					<div className="mb-1 pt-2">
 						<CameraLabel></CameraLabel>
 					</div>

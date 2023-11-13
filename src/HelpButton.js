@@ -1,20 +1,21 @@
-import React from "react";
+import React, {useState} from "react";
+import Modal from "./Modal";
+import {HelpCircle} from 'lucide-react'
 
 function HelpButton(){
+    const [openModal, setOpenModal] = useState(false);
+
     return(
         <div>
-            <button className="ml-4 mt-4" onClick={()=>document.getElementById('my_modal_1').showModal()}>Help</button>
-            <dialog id="my_modal_1" className="modal">
-            <div className="modal-box">
-                <h3 className="font-bold text-lg">Help Guide</h3>
-                <p className="py-4">click close :p</p>
-                <div className="modal-action">
-                <form method="dialog">
-                    <button className="btn">Close</button>
-                </form>
-                </div>
+            <div className="mx-5 pt-2">
+                <button variant="surface" onClick={() => setOpenModal(true)}>
+                    <HelpCircle strokeWidth={2} size={55} fill="white" className="rounded-ful p-1"/>
+                </button>
             </div>
-            </dialog>
+            
+            <div>
+                <Modal open={openModal} onClose={() => setOpenModal(false)}></Modal>
+            </div>
         </div>
     );
 }
