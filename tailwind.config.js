@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         "mustard-yellow": "#facc15",
         "soft-black": "#232B2B",
+        "dark-mustard": "#BFA443",
       }
     },
   },
