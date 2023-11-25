@@ -1,6 +1,5 @@
 import Header from "./Header";
 import CameraBox from "./TranslationBox";
-import Restart from "./RestartButton";
 import Footer from "./Footer";
 
 function App() {
@@ -9,7 +8,6 @@ function App() {
       <header>
         <Header></Header>
         <CameraBox></CameraBox>
-        <Restart></Restart>
       </header>
       <Footer></Footer>
     </div>

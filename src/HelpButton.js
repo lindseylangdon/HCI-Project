@@ -7,9 +7,9 @@ function HelpButton(){
 
     return(
         <div>
-            <div className="mx-5 pt-2">
+            <div className="mx-5 pt-4">
                 <button variant="surface" onClick={() => setOpenModal(true)}>
-                    <HelpCircle strokeWidth={2} size={55} fill="white" className="rounded-ful p-1"/>
+                    <HelpCircle strokeWidth={2} size={53} fill="white" className="rounded-ful p-1"/>
                 </button>
             </div>
             
