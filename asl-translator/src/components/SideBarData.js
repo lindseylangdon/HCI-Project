@@ -5,7 +5,7 @@ export const SideBarData = [
     {
         title: 'Home',
         path: '/',
-        icon: <AiIcons.AiFillHome />,
+        icon: <AiIcons.AiOutlineHome />,
         className: 'nav-text'
     },
     {
