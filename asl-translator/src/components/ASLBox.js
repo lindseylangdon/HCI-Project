@@ -72,8 +72,12 @@ function ASLBox({ videoRef }) {
           <ASLLabel />
         </div>
         <p className="text-xl text-gray-700 mb-5 pl-3">
-          {translationText} {detectedWords.map((word, index) => word.text).join(" ")}
-        </p>
+        {detectedWords.length > 0 ? (
+          <span>{detectedWords.map((word, index) => word.text).join(" ")}</span>
+        ) : (
+          <span>{translationText}</span>
+        )}
+      </p>
       </div>
     </div>
   );

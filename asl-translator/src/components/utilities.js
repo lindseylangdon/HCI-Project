@@ -35,7 +35,7 @@ export const drawWords = (boxes, classes, scores, threshold, imgWidth, imgHeight
         const [y, x, height, width] = boxes[i];
         const text = classes[i];
   
-        const newText = `${labelMap[text]['name']} - ${Math.round(scores[i] * 100) / 100}`;
+        const newText = labelMap[text]['name'];
         words.push({
           text: newText,
           position: { x: x * imgWidth, y: y * imgHeight - 10 },
