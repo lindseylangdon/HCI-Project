@@ -10,7 +10,7 @@ const db = mysql.createConnection({
     host: "errordb.cuicv41zhcyy.us-east-1.rds.amazonaws.com",
     user: "errorDB",
     password: "sampleDB",
-    database: "errordb"
+    database: "error-form"
 });
 
 db.connect((err) => {
