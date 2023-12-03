@@ -7,10 +7,10 @@ app.use(cors());
 app.use(express.json());
 
 const db = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "sparrow567",
-    database: "error-form"
+    host: "errordb.cuicv41zhcyy.us-east-1.rds.amazonaws.com",
+    user: "errorDB",
+    password: "sampleDB",
+    database: "error_form"
 });
 
 db.connect((err) => {
@@ -38,7 +38,7 @@ app.post('/submit-report', (req, res) => {
     });
 });
 
-const PORT = process.env.PORT || 8002;
+const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
