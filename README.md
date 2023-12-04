@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Sign Language to Text Conversion
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About
 
-## Available Scripts
+This project is being created for CSCI-4350 Human-Computer Interaction (HCI), and the purpose is to bridge the communication gap between individuals who use sign language and those who do not understand it. This project will use TensorFlow and Keras, both of which are popular Python libraries for machine learning and deep learning. The goal will be to convert sign language gestures into text in real-time.
 
-In the project directory, you can run:
+## Purpose
 
-### `npm start`
+Sign language is a crucial mode of communication for the deaf and hard of hearing communities. This project's primary purpose is to make it easier for sign language users to interact with the digital world and communicate effectively with individuals who may not be familiar with sign language. It will use the concepts learned in HCI to implement a well thought out interface.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features (Preliminary)
+The application is aiming to implement these core features:
+- Real-time sign language recognition.
+- Conversion of sign language gestures into text.
+- User-friendly interface for both sign language users and those who understand text.
+- Perhaps more...
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Documentation
+![LOFI Model](https://github.com/lindseylangdon/HCI-Project/blob/main/docs/lofi.png)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Contibutors
+- Nolan Gregory (nulzo)
+- Lindsey Langdon
+- Hap Hausman
 
-### `npm run build`
+## M1 - Progress
+We started off with creater the Lo-fi prototyping and defining what stack we were going to use. Upon that decision we started off with some tutorials to get more familiar with the technologies we would be using.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## M2 - Progress
+After creating our refined prototype, we were ready to start implementation now that we had something to work off of. We started off with a single page with all of the basic compoenents are application was going to need such as a header, translation box, buttons, and more.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## M3 - Progress
+We integrated Tensorflow into our project at this point and we were able to begin usability testing. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## M4 - Progress
+Added more updates to the user interface and included a side bar that will link to a history page and a page where users can report bugs. This application is hosted on AWS and uses a relational database where the information on the last page is stored.
