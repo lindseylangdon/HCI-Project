@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 const db = mysql.createConnection({
-    host: "errordb.cuicv41zhcyy.us-east-1.rds.amazonaws.com",
+    host: "errordb.ckyaglxy5vmu.us-east-2.rds.amazonaws.com",
     user: "errorDB",
     password: "sampleDB",
     database: "error_form"
